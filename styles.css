@@ -7,9 +7,9 @@ main{
     width: 400px;
     height: 400px;
     animation-name: rotate;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: linear; 
 }
 
 #player {

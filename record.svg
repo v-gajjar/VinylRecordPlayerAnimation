@@ -1,23 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" height="200" width="200" viewBox="0, 0, 200, 200"><clipPath id="myClip"><circle xmlns="http://www.w3.org/2000/svg" r="45" cx="50" cy="50" stroke="black" stroke-width="10"/></clipPath>
-<style>
-    .recordLabelText {
-      font: 10px monospace;
-    }
-
-    .recordLabelTextSmall {
-      font: 8px monospace;
-    }
-
-  </style>
-
+ 
   <circle r="90" cx="100" cy="100" stroke="black" stroke-width="1" fill="black" opacity="1"/>
-  <circle r="80" cx="100" cy="100" stroke="white" stroke-width="1" fill="transparent" opacity="0.1"/>
-  <circle r="70" cx="100" cy="100" stroke="white" stroke-width="1" fill="transparent" opacity="0.1" />
+  <circle r="80" cx="100" cy="100" stroke="white" stroke-width="1" fill="transparent" opacity="0.2"/>
+  <circle r="70" cx="100" cy="100" stroke="white" stroke-width="1" fill="transparent" opacity="0.2" />
   <circle r="50" cx="100" cy="100" stroke="black" stroke-width="1" fill="blue" />
   <circle r="10" cx="100" cy="100" stroke="black" stroke-width="1" fill="white" opacity="1"/>
-  <text clas="recordLabelText" stroke="white" fill="white" x="100" y="70" dominant-baseline="middle" text-anchor="middle">Vinay</text>
-  <text class="recordLabelTextSmall" stroke="white" fill="white" x="100" y="85" dominant-baseline="middle" text-anchor="middle">Software Developor</text>
-  <text class="recordLabelTextSmall" stroke="white" fill="white" x="100" y="85" dominant-baseline="middle" text-anchor="middle">Software Developor</text>
+  <text clas="recordLabelText" fill="white" x="100" y="70" dominant-baseline="middle" text-anchor="middle">Vinay</text>
+  <text class="recordLabelTextSmaller" style="font-size:8px; font-family: sans-serif;" fill="white" x="100" y="85" dominant-baseline="middle" text-anchor="middle">Software Developor</text>
+  <text class="recordLabelTextSmall" style="font-size:6px; font-family: sans-serif;" fill="white" x="100" y="115" dominant-baseline="middle" text-anchor="middle">1. Front-end</text>
+  <text class="recordLabelTextSmall" style="font-size:6px; font-family: sans-serif;" fill="white" x="100" y="123" dominant-baseline="middle" text-anchor="middle">2. JavaScipt</text>
+  <text class="recordLabelTextSmall" style="font-size:6px; font-family: sans-serif;" fill="white" x="100" y="131" dominant-baseline="middle" text-anchor="middle">3. Java</text>
+  <text class="recordLabelTextSmall" style="font-size:6px; font-family: sans-serif;" fill="white"  x="100" y="139" dominant-baseline="middle" text-anchor="middle">4. MySQL</text>
   <clipPath id="clip-record">
        <circle r="90" cx="100" cy="100" stroke="black" fill="white" stroke-width="1"  opacity="1"/>
   </clipPath>
