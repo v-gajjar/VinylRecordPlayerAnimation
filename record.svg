@@ -1,14 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" viewBox="0, 0, 100, 100"><clipPath id="myClip"><circle xmlns="http://www.w3.org/2000/svg" r="45" cx="50" cy="50" stroke="black" stroke-width="10"/></clipPath>
+<svg xmlns="http://www.w3.org/2000/svg" height="200" width="200" viewBox="0, 0, 200, 200"><clipPath id="myClip"><circle xmlns="http://www.w3.org/2000/svg" r="45" cx="50" cy="50" stroke="black" stroke-width="10"/></clipPath>
+<style>
+    .recordLabelText {
+      font: 10px monospace;
+    }
 
-  <circle r="45" cx="50" cy="50" stroke="black" stroke-width="10" fill="black" opacity="1"/>
-  <circle r="47" cx="50" cy="50" stroke="white" stroke-width="1" fill="transparent" opacity="0.1" />
-  <circle r="40" cx="50" cy="50" stroke="white" stroke-width="1" fill="transparent" opacity="0.1"/>
-  <circle r="35" cx="50" cy="50" stroke="white" stroke-width="1" fill="transparent" opacity="0.1" />
-  <circle r="25" cx="50" cy="50" stroke="black" stroke-width="1" fill="blue" />
-  <circle r="5" cx="50" cy="50" stroke="black" stroke-width="1" fill="white" opacity="1"/>
+    .recordLabelTextSmall {
+      font: 8px monospace;
+    }
+
+  </style>
+
+  <circle r="90" cx="100" cy="100" stroke="black" stroke-width="1" fill="black" opacity="1"/>
+  <circle r="80" cx="100" cy="100" stroke="white" stroke-width="1" fill="transparent" opacity="0.1"/>
+  <circle r="70" cx="100" cy="100" stroke="white" stroke-width="1" fill="transparent" opacity="0.1" />
+  <circle r="50" cx="100" cy="100" stroke="black" stroke-width="1" fill="blue" />
+  <circle r="10" cx="100" cy="100" stroke="black" stroke-width="1" fill="white" opacity="1"/>
+  <text clas="recordLabelText" stroke="white" fill="white" x="100" y="70" dominant-baseline="middle" text-anchor="middle">Vinay</text>
+  <text class="recordLabelTextSmall" stroke="white" fill="white" x="100" y="85" dominant-baseline="middle" text-anchor="middle">Software Developor</text>
+  <text class="recordLabelTextSmall" stroke="white" fill="white" x="100" y="85" dominant-baseline="middle" text-anchor="middle">Software Developor</text>
   <clipPath id="clip-record">
-       <circle r="50" cx="50" cy="50" stroke="black" fill="white" stroke-width="1"  opacity="1"/>
+       <circle r="90" cx="100" cy="100" stroke="black" fill="white" stroke-width="1"  opacity="1"/>
   </clipPath>
-  <polygon style="fill:darkgray; opacity: 0.5" points="0 0, 45 45, 25 0 " clip-path="url(#clip-record)"/>
-  <polygon points="90 100, 55 55, 65 100 " style="fill:darkgray; opacity: 0.5" clip-path="url(#clip-record)"/>
+  <polygon style="fill:darkgray; opacity: 0.5" points="0 0, 94 94, 50 0 " clip-path="url(#clip-record)"/>
+  <polygon points="180 200, 106 106, 130 200 " style="fill:darkgray; opacity: 0.5" clip-path="url(#clip-record)"/>
 </svg>
