@@ -1,6 +1,6 @@
 <svg height="300" width="400" xmlns="http://www.w3.org/2000/svg">
   <circle r="40" cx="300" cy="50" fill="gray" stroke="black" stroke-width="3" />
   <circle r="10" cx="300" cy="50" fill="gray" stroke="black" stroke-width="3" />
-  <circle r="10" cx="50" cy="100" fill="gray" stroke="black" stroke-width="3" />
-  <polyline points="300, 50, 220, 120, 50,100" style="fill:none;stroke:rgb(153, 153, 153);stroke-width:10" />
+  <circle r="10" cx="115" cy="100" fill="gray" stroke="darkgray" stroke-width="3" />
+  <polyline points="300, 50, 115,100" style="fill:none;stroke:rgb(153, 153, 153);stroke-width:10" />
 </svg>

@@ -12,6 +12,16 @@ main{
     animation-timing-function: linear; 
 }
 
+#lightrays{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 21px;
+    top: 21px;
+    z-index: 10;
+}
+
+
 #player {
     border: 3px solid black;
     padding: 10px;
@@ -31,8 +41,14 @@ main{
     position: absolute;
     top: 350px;
     left: 500px;
-
 }
+
+#pin{
+    position: absolute;
+    top: 171px;
+    left: 171px;
+}
+
 
 
 @keyframes rotate{

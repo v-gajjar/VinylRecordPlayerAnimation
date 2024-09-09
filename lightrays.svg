@@ -1,0 +1,7 @@
+ <svg xmlns="http://www.w3.org/2000/svg" height="200" width="200" viewBox="0, 0, 200, 200">
+  <clipPath id="clip-record">
+       <circle r="90" cx="100" cy="100" stroke="black" fill="white" stroke-width="1"  opacity="1"/>
+  </clipPath>
+  <polygon style="fill:darkgray; opacity: 0.3" points="0 0, 97 97, 50 0 " clip-path="url(#clip-record)"/>
+  <polygon points="180 200, 103 103, 130 200 " style="fill:darkgray; opacity: 0.3" clip-path="url(#clip-record)"/>
+</svg>
